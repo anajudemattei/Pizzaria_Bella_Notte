@@ -38,6 +38,7 @@ header .logo {
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
+    font-size: 28.4px;
 }
 
 header .logo span {
@@ -50,7 +51,7 @@ header .navbar {
 }
 
 header .navbar a {
-    font-size: 2rem;
+    font-size: 24.4px;
     padding: 0 1.5rem;
     color: #666;
     font-weight: bold;
@@ -64,10 +65,11 @@ header .navbar a:hover {
 header .icons {
     display: flex;
     gap: 1.5rem;
+    font-size: large;
 }
 
 header .icons i {
-    font-size: 2.5rem;
+    font-size: 28.1px;
     color: #444801;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -85,6 +87,7 @@ header .fa-bars {
     cursor: pointer;
     border: 1rem solid rgba(0, 0, 0, 0.3);
     display: none;
+    font-size: 24.4px;
 }
 
 header #toggler {
@@ -118,7 +121,7 @@ header #toggler {
 
     header .navbar a {
         padding: 3rem;
-        font-size: 3rem;
+        font-size: 24.4px;
         display: block;
     }
 }
