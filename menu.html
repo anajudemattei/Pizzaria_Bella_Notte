@@ -1,64 +1,53 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio - Pizzaria Bella Itália</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.index.css" />
+    <title>Site da Julinha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Pizzaria Bella Notte</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Cardápio</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Confira nosso Cardápio</h2>
-
-            <h3>Pizzas Salgadas</h3>
-            <ul>
-                <li>Corn & Bacon - R$ 38,00</li>
-                <li>Calabresa - R$ 32,00</li>
-                <li>Quatro Queijos - R$ 30,00</li>
-                <li>Frango com Catupiry - R$ 40,00</li>
-                <li>Portuguesa - R$ 39,00</li>
-                <li>Marguerita - R$ 35,00</li>
-                <li>Quejo Brie com Geleia de Pimenta - R$ 45,00</li>
-            </ul>
-        
-            <h3>Pizzas Doces</h3>
-            <ul>
-                <li>Morango com Chocolate - R$ 40,00</li>
-                <li>S'mores - R$ 48,00</li>
-                <li>Chocolate com confete M&M - R$ 38,00</li>
-                <li>Tradicional de Chocolate - R$ 30,00</li>
-                <li>Chocolate com frutas tropicais - R$ 42,00</li>
-            </ul>
-
-            <h3>Bebidas</h3>
-            <ul>
-                <li>Coca-Cola - R$ 6,00</li>
-                <li>Suco de Laranja - R$ 8,00</li>
-                <li>Suco de Morango - R$ 8,00</li>
-                <li>Suco de Melancia - R$ 8,00</li>
-                <li>Suco de Abacaxi - R$ 8,00</li>
-                <li>Água Mineral - R$ 3,00</li>
-                <li>Soda Italiana- R$ 12,00</li>
-                <li>Lemonade de Amora - R$ 18,00</li>
-                <li>Lemonade de Pitaya - R$ 18,00</li>
-                <li>Cerveja - R$ 10,00</li>
-                <li>Garrafa de Vinho - R$ 68,00</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Pizzaria Bella Itália. Todos os direitos reservados.</p>
-    </footer>
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+            <a href="#" class="logo">Pizzaria Bella Notte<span>.</span></a>
+            <img class="logo" src="imagens/icone.png" alt="logo Pizzaria"/>
+            <nav> 
+                <div class="icons">
+                    <i class="fa-solid fa-house"></i> <a href="index.html">Home</a>
+                    <i class="fa-solid fa-circle-info"></i> <a href="menu.html">Cardápio</a>
+                    <i class="fa-solid fa-phone"></i> <a href="contato.html">Contato</a>
+                </div>
+</header> 
+<div class="menu-container">
+    <div class="section massas">
+        <h2>Massas</h2>
+        <ul>
+            <li><strong>Entradas:</strong> Canapés frios: Presunto parma, Caprese, Rúcula, Tropical, Tomato Seco, Azeitona e Berinjela.</li>
+            <li><strong>Molhos:</strong> Bolognese, Branco, Molho ao Sugo.</li>
+            <li><strong>Guarnições:</strong> List of items...</li>
+            <li><strong>Recheios:</strong> List of items...</li>
+        </ul>
+    </div>
+    <div class="section pizzas">
+        <h2>Pizzas</h2>
+        <ul>
+            <li><strong>Entradas:</strong> Focaccia...</li>
+            <li><strong>Pizzas:</strong> Marguerita, Tropical, Atum, Lombardo...</li>
+            <li><strong>Pizza Doce:</strong> Chocolate com Morango...</li>
+            <li><strong>Calzone:</strong> Palmito e Bauru.</li>
+        </ul>
+    </div>
+    <div class="section bartender">
+        <h2>Bartender</h2>
+        <ul>
+            <li><strong>Bar Tender / Bar de Caipirinhas:</strong> Bebidas...</li>
+            <li><strong>Frutas:</strong> Kiwi, Abacaxi...</li>
+            <li><strong>Bar Tender - VIP:</strong> Drinks list...</li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
