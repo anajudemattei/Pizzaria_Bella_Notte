@@ -34,6 +34,7 @@ header {
     position: relative;
     z-index: 1000;
     height: 180px;
+    justify-content: center;
 }
 
 header .logo {
@@ -321,6 +322,7 @@ nav ul li a {
     color: #000;
     font-weight: bold;
     padding: 10px 20px;
+    align-items: center;
 }
 
 nav ul li a:hover {
