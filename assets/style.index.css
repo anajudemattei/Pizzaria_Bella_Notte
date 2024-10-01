@@ -4,23 +4,19 @@ html {
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
-a {
-    text-decoration: none;
-}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.2s linear;
-    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #740005;
 }
 
 
@@ -73,7 +69,7 @@ header .icons {
 
 header .icons i {
     font-size: 28.1px;
-    color: #444801;
+    color: #858b0abb;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -133,7 +129,7 @@ header #toggler {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8bdc6;
+    background-color: #eadac0;
     padding: 1rem 2%;
 }
 
@@ -149,15 +145,11 @@ header #toggler {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
     margin-right: 20px;
     filter: brightness(70%);
 }
@@ -267,7 +259,7 @@ footer p {
 .centralize-text {
     text-align: center;
     color: #000;
-    font-size: 18px;
+    font-size: 1.5rem;
     margin: 20px auto;
     font-family: Arial, sans-serif;
 }
@@ -291,8 +283,6 @@ footer p {
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -366,6 +356,9 @@ main {
 
 .pizza-item img {
     max-width: 100%;
+    width: 100%; /* Define a largura máxima para todas as imagens */
+    height: 300px; /* Define uma altura fixa */
+    object-fit: cover; /* Faz com que a imagem se ajuste ao tamanho do contêiner, cortando se necessário */
     border-radius: 8px;
 }
 
@@ -380,6 +373,7 @@ main {
     color: #666;
 }
 
+<<<<<<< HEAD
 img {
     width: 350px;
     height: 350px;
@@ -408,4 +402,111 @@ h1, p{
     display: flex;
     justify-content: center;
     align-items: center;
+=======
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Estilos Globais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+/* Estilos do Header */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #000000; /* Cor da logo */
+    text-decoration: none;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #807e2a; /* Hover color */
+}
+
+/* Estilos da Seção Home */
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.text p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    .text h1 {
+        font-size: 2em;
+    }
+
+    .text p {
+        font-size: 1em;
+    }
+}
+
+a {
+    font-size: large;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 1.5em; /* Ajusta o tamanho da fonte */
+    color: #000;
+    margin: 20px auto; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center; /* Centraliza o grid das imagens */
+    margin-top: 20px;
+>>>>>>> 8927afc6d3cad13a4db2a4dd019e23cac2d97777
 }
