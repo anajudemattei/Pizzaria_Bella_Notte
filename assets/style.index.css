@@ -5,13 +5,6 @@ html {
     overflow-x: hidden;
 }
 
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    outline: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.2s linear;
-}
 
 body {
     margin: 0;
@@ -143,8 +136,9 @@ header #toggler {
 }
 
 .container img {
-    width: 2000px;
-    height: 700px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     filter: brightness(70%);
 }
 
@@ -228,12 +222,12 @@ form button:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #b88654a4;
     color: #333;
 }
 
 footer p {
-    color: #e40d7191;
+    color: #ffffff;
     font-size: 1.2rem;
 }
 
@@ -461,7 +455,6 @@ nav {
 }
 
 a {
-    font-size: 1.5em; /* Ajusta o tamanho da fonte */
     color: #000;
     margin: 20px 0; 
     grid-template-columns: repeat(3, 1fr);
@@ -477,7 +470,7 @@ h3 {
 
 /*teste*/
 * {
-    padding: 0;
+    padding: 1px;
 }
 
 body {
@@ -514,7 +507,8 @@ header nav .icons a {
 .casas {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    gap: 20px;
+    padding: 20px 0;
 }
 
 .casa {
@@ -523,9 +517,10 @@ header nav .icons a {
 }
 
 .casa img {
-    width: 700px;
-    border-radius: 50px;
-    height: 600px;
+    width: 100%; 
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 10px;
 }
 
 .casa h3 {
@@ -557,4 +552,147 @@ header nav .icons a {
 
 .btn-pedido:hover {
     background-color: #a52a2a;
+}
+
+/*TESTE2*/
+html {
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 180px;
+    position: relative;
+}
+
+header .logo {
+    font-size: 28.4px;
+    font-weight: bolder;
+    color: #333;
+}
+
+header nav {
+    display: flex;
+}
+
+header .icons {
+    display: flex;
+    gap: 1.5rem;
+    font-size: large;
+}
+
+header .icons i {
+    font-size: 28.1px;
+    color: #858b0abb;
+    cursor: pointer;
+}
+
+header .icons a {
+    font-size: 24.4px;
+    color: #666;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.container img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.text h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.casas-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+.casas-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.casas {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.casa {
+    width: 45%;
+    text-align: left;
+}
+
+.casa img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.casa h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #8b0000;
+}
+
+.casa p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+
+
+footer a {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .casas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .casa {
+        width: 80%;
+    }
 }
