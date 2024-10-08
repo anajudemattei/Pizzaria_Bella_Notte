@@ -455,7 +455,6 @@ header nav .icons a {
 }
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     text-transform: capitalize;
 }
@@ -528,6 +527,7 @@ header .icons a {
 .casas-section h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
     color: #333;
 }
 
